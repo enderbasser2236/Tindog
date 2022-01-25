@@ -1,0 +1,185 @@
+body {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+/* sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.white-section {
+  background-color: #ffffff;
+}
+
+/* headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-headings {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+/* download-button */
+.download-button {
+  margin: 3% 10% 10% 3%
+}
+
+/* title section */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 25%;
+}
+
+#title {
+
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15%
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.features-icon {
+  color: #ef8172;
+  padding: 25px;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.p-features {
+  color: #8f8f8f;
+  padding: 5%
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.price-text {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* cta section */
+
+.cta {
+  font-weight: 900;
+  font-size: 3rem;
+  padding: 5% 20%;
+
+}
+
+/* footer section */
+
+.bottom-button {
+  margin: 2%
+}
+
+.icons {
+  padding: 3% 1%;
+}
+
+.copyright {
+  color: gray;
+  margin: 2% 2%
+}
