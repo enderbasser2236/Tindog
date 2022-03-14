@@ -4,4 +4,4 @@ feel free to reproduce it, improve it or usue it as a learning point.
 
 link to the proyect:
 
-enderbasser2236.github.io/tindog/
+https://enderbasser2236.github.io/Tindog/
